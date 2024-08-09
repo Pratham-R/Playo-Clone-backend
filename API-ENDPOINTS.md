@@ -4,7 +4,7 @@
 
 -   **Method**: POST
 
--   **Endpoint**: /api/users/register
+-   **Endpoint**: http://localhost:5001/api/users/register
 
 
 **Body** (JSON):
@@ -39,7 +39,7 @@
 
 -   **Method**: POST
 
--   **Endpoint**: /api/users/login
+-   **Endpoint**: http://localhost:5001/api/users/login
 
 
 **Body** (JSON):
@@ -72,7 +72,7 @@
 
 -   **Method**: GET
 
--   **Endpoint**: /api/users/profile
+-   **Endpoint**: http://localhost:5001/api/users/profile
 
 -   **Headers**:
 
@@ -97,7 +97,7 @@
 
 -   **Method**: POST
 
--   **Endpoint**: /api/facilities
+-   **Endpoint**: http://localhost:5001/api/facilities
 
 -   **Headers**:
 > Authorization: Bearer "JWT_token"
@@ -134,7 +134,7 @@
 
 -   **Method**: GET
 
--   **Endpoint**: /api/facilities
+-   **Endpoint**: http://localhost:5001/api/facilities
 
 
 **Expected Response**: 200 OK
@@ -156,7 +156,7 @@
 
 -   **Method**: GET
 
--   **Endpoint**: /api/facilities/:id
+-   **Endpoint**: http://localhost:5001/api/facilities/:id
 
 
 **Expected Response**: 200 OK
@@ -179,7 +179,7 @@
 
 -   **Method**: DELETE
 
--   **Endpoint**: /api/facilities/:id
+-   **Endpoint**: http://localhost:5001/api/facilities/:id
 
 -   **Headers**:
 >Authorization: Bearer "JWT_token"
@@ -199,7 +199,7 @@
 
 -   **Method**: POST
 
--   **Endpoint**: /api/activities
+-   **Endpoint**: http://localhost:5001/api/activities
 
 -   **Headers**:
 
@@ -260,7 +260,7 @@
 
 -   **Method**: GET
 
--   **Endpoint**: /api/activities
+-   **Endpoint**: http://localhost:5001/api/activities
 
 
 **Expected Response**: 200 OK
@@ -292,7 +292,7 @@
 
 -   **Method**: GET
 
--   **Endpoint**: /api/activities/:id
+-   **Endpoint**: http://localhost:5001/api/activities/:id
 
 
 **Expected Response**: 200 OK
@@ -323,7 +323,7 @@
 
 -   **Method**: POST
 
--   **Endpoint**: /api/activities/:id/join
+-   **Endpoint**: http://localhost:5001/api/activities/:id/join
 
 -   **Headers**:
 
@@ -360,7 +360,7 @@
 
 -   **Method**: POST
 
--   **Endpoint**: /api/activities/:id/leave
+-   **Endpoint**: http://localhost:5001/api/activities/:id/leave
 
 -   **Headers**:
 
@@ -397,7 +397,7 @@
 
 -   **Method**: DELETE
 
--   **Endpoint**: /api/activities/:id
+-   **Endpoint**: http://localhost:5001/api/activities/:id
 
 -   **Headers**:
 
