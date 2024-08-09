@@ -2,6 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const userRoutes = require('./routes/userRoutes');
 const facilityRoutes = require('./routes/facilityRoutes');
+const activityRoutes = require('./routes/activityRoutes');
 
 const app = express();
 
@@ -9,7 +10,7 @@ const app = express();
 app.use(express.json());
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://prathamrastogi5:Prathamhello@cluster0.v4cdlib.mongodb.net/', {
+mongoose.connect('mongodb+srv://prathamrastogi5:QsCMIvd0kkFjroK3@playo.mms5g.mongodb.net/', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     // useCreateIndex: true,
@@ -23,6 +24,7 @@ mongoose.connect('mongodb+srv://prathamrastogi5:Prathamhello@cluster0.v4cdlib.mo
 // Use routes
 app.use('/api/users', userRoutes);
 app.use('/api/facilities', facilityRoutes);
+app.use('/api/activities', activityRoutes);
 
 // Start the server
 const PORT = process.env.PORT || 5001;
