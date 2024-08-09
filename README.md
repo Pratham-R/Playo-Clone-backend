@@ -32,14 +32,8 @@ The server will start on http://localhost:5001
 
 ## Testing the API
 
-You can test the API endpoints using Postman or any other API testing tool. Below are some key endpoints:
-
-- Register a User: 'POST /api/users/register'
-- Login a User: 'POST /api/users/login'
-- Get User Profile: 'GET /api/users/profile' (protected)
-- Create a Facility: 'POST /api/facilities/' (protected)
-- Get All Facilities: 'GET /api/facilities/'
-- Get Facility by ID: 'GET /api/facilities/:id'
+You can test the API endpoints using Postman or any other API testing tool.
+Here is the [link](https://github.com/Pratham-R/Playo-Clone-backend/blob/main/API-ENDPOINTS.md#1-user-management-endpoints) to the API Endpoints file.
 
 ## Technologies Used
 
